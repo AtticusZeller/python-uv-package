@@ -28,20 +28,11 @@ repos:
         args: [--write-changes]
     # lint and format
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.8.6
+    rev: v0.9.0
     hooks:
       - id: ruff
         args: [ --fix ]
       - id: ruff-format
-  # - repo: https://github.com/hadolint/hadolint
-  #   rev: v2.12.0
-  #   hooks:
-  #     - id: hadolint
-  #       name: Lint Dockerfiles
-  #       description: Runs hadolint to lint Dockerfiles
-  #       language: system
-  #       types: ["dockerfile"]
-  #       entry: hadolint
 ci:
   # Settings for the https://pre-commit.ci/ continuous integration service
   autofix_prs: True
