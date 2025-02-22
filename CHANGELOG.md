@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.41 - 2025-02-22
+
+### 🐛 Bug Fixes
+
+- Author email
+- Release ci token
+
+### ⚙️ Miscellaneous Tasks
+
+- Format
+- Clean
+
 ## 0.0.40 - 2025-02-18
 
 ### 🚀 Features
